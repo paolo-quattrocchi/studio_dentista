@@ -26,10 +26,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Staff</a>
+            <a class="nav-link" href="{{route('staff')}}">Staff</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -43,14 +43,20 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contatti</a>
+            <a class="nav-link" href="{{route('contacts')}}">Contatti</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <header>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, cupiditate? Ea sequi voluptas assumenda. Fugit voluptatum libero eligendi officia sit. Non necessitatibus libero ratione dicta veritatis et aliquam sunt ad?</p>
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-12 p-0">
+                      <img class="img-fluid" src="/img/immagine-home.jpg" alt="">
+                  </div>
+              </div>
+          </div>
       </header>
       <!-- Footer -->
 <footer class="page-footer font-small bg-secondary pt-4">

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\StaffController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/contacts', function() {
+    return view('contacts');
+})->name('contacts'); 
 
+Route::get('/staff', [StaffController::class, 'staff'])->name('staff');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
