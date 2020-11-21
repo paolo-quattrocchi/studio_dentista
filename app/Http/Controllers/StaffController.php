@@ -19,6 +19,6 @@ class StaffController extends Controller
 
         ];
 
-        return view('staff', ['staff' => $staff]);
+        return view('staff', compact('staff'));
     }
 }
