@@ -10,11 +10,11 @@ class ServicesController extends Controller
 
         $services = [
 
-            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
-            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
-            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
-            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
-            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
+            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'https://picsum.photos/200/300'],
+            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'https://picsum.photos/200/300'],
+            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'https://picsum.photos/200/300'],
+            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'https://picsum.photos/200/300'],
+            ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'https://picsum.photos/200/300'],
         ];
 
     return view('services', ['services' => $services]);    

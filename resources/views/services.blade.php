@@ -6,7 +6,7 @@
                 @foreach ($services as $service)
                   <div class="col-12 col-md-4 my-3">
                     <x-card
-                    servizio="{{$service['servizio']}}"
+                    services="{{$service['servizio']}}"
                     img="{{$service['img']}}"
                     description="{{$service['description']}}"
                     />          
@@ -16,5 +16,4 @@
             </div>
         </div>
     </div>
-  </div>
 </x-layout>
