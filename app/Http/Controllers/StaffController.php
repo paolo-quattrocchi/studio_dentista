@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class StaffController extends Controller
 {
     public function staff(){
+        
         $staff = 
         [
             ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
@@ -17,6 +18,6 @@ class StaffController extends Controller
 
         ];
 
-        return view('staff');
+        return view('staff', ['staff' => $staff]);
     }
 }
