@@ -515,8 +515,13 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 __webpack_require__(/*! C:\Users\Windows\wa\laravel\p_r_v_f_d_dentista\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\Users\Windows\wa\laravel\p_r_v_f_d_dentista\resources\sass\app.scss */"./resources/sass/app.scss");
+=======
+__webpack_require__(/*! C:\Users\Utente Locale\wa\laravel\p_r_v_f_d_dentista\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Utente Locale\wa\laravel\p_r_v_f_d_dentista\resources\sass\app.scss */"./resources/sass/app.scss");
+>>>>>>> ce216001950e395f085e9ab12baf1770812796ca
 
 
 /***/ })
