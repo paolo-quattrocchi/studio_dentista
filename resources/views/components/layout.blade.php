@@ -47,7 +47,7 @@
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
 
       <header>
           <div class="container-fluid">
@@ -58,7 +58,9 @@
               </div>
           </div>
       </header>
-      <!-- Footer -->
+
+      
+<!-- Footer -->
 <footer class="page-footer font-small bg-secondary pt-4">
 
     <!-- Footer Links -->
