@@ -10,11 +10,11 @@ class ServicesController extends Controller
 
         $services = [
 
-            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','image'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','image'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','image'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','image'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','image'=>'https://picsum.photos/200/300'],
+            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
+            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
+            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
+            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
+            ['name'=>'paolo','surname'=>'quattrocchi', 'description' =>'breve descrizione','img'=>'https://picsum.photos/200/300'],
         ];
 
     return view('services', compact('services'));    
