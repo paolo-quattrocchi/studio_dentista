@@ -1,5 +1,5 @@
 <x-layout>
-  <div class="container my-5 py-5">
+  {{-- <div class="container my-5 py-5">
       <div class="row mb-5">
           <div class="col-12 col-md-6">
             <img src="/img/4.jpg" height="400" width="600" alt="" class="img-fluid">
@@ -34,10 +34,10 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus dicta nemo ipsum illo deserunt accusantium at explicabo repellat pariatur facilis eaque consequuntur voluptas, similique repellendus autem enim cupiditate sint nesciunt!</p>
       </div>
   </div>
-  </div>
+  </div> --}}
 
 
-  {{-- <div class="container my-5 py-5 ">
+  <div class="container my-5 py-5 ">
     <div class="col-12">
         <h2 class="text-first">Ecco i nostri servizi!</h2>
         <div class="row">
@@ -53,6 +53,6 @@
             @endforeach
         </div>
     </div>
-</div> --}}
+</div>
 
 </x-layout>

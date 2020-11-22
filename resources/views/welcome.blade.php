@@ -57,16 +57,23 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
-          <div class="card align-items-center text-center shadow mb-5">
-            <img class="card-img-top" src="/img/5.jpg" width="200" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Protesi dentali</h5>
-              <p class="card-text"></p>
-              <a href="/services" class="btn btn-primary">Vai al servizio</a>    
-            </div>
+        <div class="container my-5 py-5 ">
+          <div class="col-12">
+              <h2 class="text-first">Ecco i nostri servizi!</h2>
+              <div class="row">
+                  @foreach ($services as $service)
+                    <div class="col-12 col-md-4 my-3">
+                      <x-card
+                      services="{{$service['servizio']}}"
+                      img="{{$service['img']}}"
+                      description="{{$service['description']}}"
+                      />          
+                    </div> 
+                                 
+                  @endforeach
+              </div>
           </div>
-        </div>
+      </div>
         <div class="col-12 col-md-4">
           <div class="card align-items-center text-center shadow mb-5">
             <img class="card-img-top" src="/img/7.jpg" width="200" alt="...">

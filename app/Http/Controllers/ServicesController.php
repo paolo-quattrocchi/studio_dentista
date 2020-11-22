@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ServicesController extends Controller
 {
-    public function services() {
+   /*  public function services() {
 
         $services = [
 
@@ -17,5 +17,5 @@ class ServicesController extends Controller
 
     return view('services', ['services' => $services]);    
 
-    }
+    } */
 }

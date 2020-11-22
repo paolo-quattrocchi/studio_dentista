@@ -16,7 +16,7 @@
         <a class="nav-link " href="{{route('staff')}}">Staff</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="{{route('services')}}" >
+          <a class="nav-link font-weight-bold" href="{{route('servicespage')}}">
             Servizi
           </a>
         </li>
