@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [ServicesController::class, 'services'])->name('services');
+/* Route::get('/', [ServicesController::class, 'services'])->name('services'); */
+
+Route::get('/', function () {
+    return view('welcome');    
+})->name('welcome');
 
 Route::get('/contacts', function() {
     return view('contacts');
