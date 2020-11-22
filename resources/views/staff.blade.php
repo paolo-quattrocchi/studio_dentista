@@ -1,5 +1,6 @@
 
 <x-layout>
+  <h1 class="display-4 my-5 font-weight-bold text-center text-capitalize">Il nostro staff</h1>
     <div class="container my-5 py-5">
             <div class="row">
                 @foreach ($staff as $team)

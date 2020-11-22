@@ -9,7 +9,7 @@
     <div class="row">
       
       <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
+      <div class="col-md-4 mt-md-0 mt-3">
         
         <!-- Content -->
         <img src="/img/cover.png" class="logo" height=100px alt="" class="mb-3">
@@ -21,7 +21,7 @@
       <hr class="clearfix w-100 d-md-none text-right pb-3">
       
       <!-- Grid column -->
-      <div class="col-md-6 mb-md-0 mb-3 text-md-center mt-5">
+      <div class="col-md-4 mb-md-0 mb-3 text-md-center mt-5">
         
         <!-- Links -->
         <h5 class="text-second text-uppercase">contatti</h5>
@@ -36,14 +36,32 @@
           <li>
             <a class="text-second" href="#!">indirizzo@mail.com</a>
           </li>
-          <li>
-            <p>orari: dalle 08 am a 18 pm</p>
-          </li>
+          
         </ul>
         
       </div>
       <!-- Grid column -->
-      
+      <div class="col-md-4 mb-md-0 mb-3 text-md-center mt-5">
+        <h5 class="text-second text-uppercase">orari di apertura</h5>
+        <ul class="list-unstyled text-second">
+          <li class="text-second">
+            Lunedì: 09:30-19:00
+          </li>
+          <li>
+            Martedì: 09:30-19:00
+          </li>
+          <li>
+            Mercoledì: 09:30-19:00
+          </li>
+          <li>
+            Giovedì: 09:30-19:00
+          </li>
+          <li>
+            Ven/Sab/Dom: chiuso
+          </li>
+          
+        </ul>
+      </div>
     </div>
     <!-- Grid row -->
     

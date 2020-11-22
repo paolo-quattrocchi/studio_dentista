@@ -77,9 +77,8 @@
   color: var(--second-color) !important;
 }
 
-.navbar-toggler-icon {
-  color: var(--second-color) !important;
-  border: 0;
+.navbar-toggler {
+  background-color: var(--second-color) !important;
 }
 
 /*!

@@ -10,12 +10,12 @@ class StaffController extends Controller
         
         $staff = 
         [
-            ['name'=>'paolo', 'surname'=>'quattrocchi', 'description'=>'breve descrizione', 'img'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo', 'surname'=>'quattrocchi', 'description'=>'breve descrizione', 'img'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo', 'surname'=>'quattrocchi', 'description'=>'breve descrizione', 'img'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo', 'surname'=>'quattrocchi', 'description'=>'breve descrizione', 'img'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo', 'surname'=>'quattrocchi', 'description'=>'breve descrizione', 'img'=>'https://picsum.photos/200/300'],
-            ['name'=>'paolo', 'surname'=>'quattrocchi', 'description'=>'breve descrizione', 'img'=>'https://picsum.photos/200/300'],
+            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
 
         ];
 
