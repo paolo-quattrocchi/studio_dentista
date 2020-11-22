@@ -17,7 +17,7 @@ class ServicesController extends Controller
             ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'https://picsum.photos/200/300'],
         ];
 
-    return view('services', compact('services'));    
+    return view('services', ['services' => $services]);    
 
     }
 }

@@ -3,7 +3,7 @@
     
 
     <a class="navbar-brand" href="#"> <img src="/img/dentisti_aulab.png" height="100 px" alt="logo"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
@@ -19,12 +19,12 @@
           <a class="nav-link dropdown-toggle" href="{{route('services')}}" >
             Servizi
           </a>
-          {{-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
-          </div> --}}
+          </div>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="{{route('contacts')}}">Contatti</a>
