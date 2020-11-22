@@ -15,7 +15,7 @@ class ServicesController extends Controller
             ['servizio'=>'sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'/img/estetica-dentale.jpg'],
         ];
 
-    return view('services', compact('services'));    
+    return view('services', ['services' => $services]);    
 
     }
 }
