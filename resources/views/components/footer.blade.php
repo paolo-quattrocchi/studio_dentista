@@ -1,6 +1,6 @@
 
 <!-- Footer -->
-<footer class="page-footer font-small bg-secondary pt-4">
+<footer class="page-footer font-small bg-first pt-4">
   
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
@@ -13,7 +13,7 @@
         
         <!-- Content -->
         <img src="/img/dentisti_aulab.png" height=100px alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti, incidunt, numquam ea quisquam debitis sint saepe non nihil minima autem beatae sapiente eaque ipsum, ut magni ullam blanditiis. Neque!</p>
+        <p class="text-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti, incidunt, numquam ea quisquam debitis sint saepe non nihil minima autem beatae sapiente eaque ipsum, ut magni ullam blanditiis. Neque!</p>
         
       </div>
       <!-- Grid column -->
@@ -24,17 +24,17 @@
       <div class="col-md-6 mb-md-0 mb-3 text-md-center">
         
         <!-- Links -->
-        <h5 class="text-uppercase">contatti</h5>
+        <h5 class="text-second text-uppercase">contatti</h5>
         
-        <ul class="list-unstyled ">
-          <li>
-            <a href="#!">33333333333</a>
+        <ul class="list-unstyled text-second">
+          <li >
+            <a class="text-second" href="#!">33333333333</a>
           </li>
           <li>
-            <a href="#!">08033333333</a>
+            <a class="text-second" href="#!">08033333333</a>
           </li>
           <li>
-            <a href="#!">indirizzo@mail.com</a>
+            <a class="text-second" href="#!">indirizzo@mail.com</a>
           </li>
           <li>
             <p>orari: dalle 08 am a 18 pm</p>
@@ -51,8 +51,8 @@
   <!-- Footer Links -->
   
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://dentistiaulab.com/">dentistiaulab.com</a>
+  <div class="footer-copyright text-center text-second py-3">© 2020 Copyright:
+    <a class="text-second" href="https://dentistiaulab.com/">dentistiaulab.com</a>
   </div>
   <!-- Copyright -->
   

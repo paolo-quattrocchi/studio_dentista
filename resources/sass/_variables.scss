@@ -32,27 +32,39 @@ $cyan: #6cb2eb;
   .text-first {
     color: var(--first-color);
   }
-  
+
   .text-second {
     color: var(--second-color);
   }
-  
+
   .text-accent {
     color: var(--accent);
   }
+
+  .bg-first {
+    background-color: var(--first-color);
+  }
+
 
   .header {
     height: 600px;
     background: linear-gradient( var(--second-color),#bdbdbd94, var(--second-color)),url(/img/header-image.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     text-shadow: 0 4px 7px rgb(48, 46, 46);
   }
-  
+
   .bg-header {
     height: 400px;
     background: linear-gradient(var(--second-color),#bdbdbd94,var(--second-color)),url(/img/header-image.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     text-shadow: 0 4px 7px rgb(48, 46, 46);
   }
+
+
+@media screen and (max-width: 992px){
+    header{
+        background-position: 90% 0;
+    }
+}

@@ -1,5 +1,5 @@
 
-<div class="card align-items-center" style="width: 18rem;">
+<div class="card align-items-center text-center">
     <img class="card-img-top" src="{{$img}}" alt="...">
     <div class="card-body">
       @if(isset($name))
