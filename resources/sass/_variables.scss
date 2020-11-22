@@ -45,6 +45,10 @@ $cyan: #6cb2eb;
     background-color: var(--first-color);
   }
 
+  .bg-second {
+    background-color: var(--second-color);
+  }
+
 
   .header {
     height: 600px;
@@ -68,4 +72,33 @@ $cyan: #6cb2eb;
       flex-direction: column-reverse;
   
     }
+  }
+
+
+  .bg-header-2 {
+    height: 800px;
+    background:url(/img/header-image.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .nav-item .nav-link {
+    color: var(--second-color) !important;
+  }
+  
+  .nav-item .nav-link:hover {
+    border-bottom: 2px solid var(--second-color);
+  }
+
+  .logo {
+    width: 200px;
+    padding-left: 0;
+  }
+
+  .dropdown-menu {
+    color: var(--second-color) !important;
+  }
+
+  .navabr-toggler .navbar-toggler-icon {
+    color: var(--second-color) !important;
   }

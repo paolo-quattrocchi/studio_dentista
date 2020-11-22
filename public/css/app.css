@@ -26,6 +26,10 @@
   background-color: var(--first-color);
 }
 
+.bg-second {
+  background-color: var(--second-color);
+}
+
 .header {
   height: 600px;
   background: linear-gradient(var(--second-color), #bdbdbd94, var(--second-color)), url(/img/header-image.png);
@@ -42,17 +46,39 @@
   text-shadow: 0 4px 7px #302e2e;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 992px) {
-  header {
-    background-position: 90% 0;
-=======
 @media (max-width: 768px) {
   .test {
     display: flex;
     flex-direction: column-reverse;
->>>>>>> 4a152924aaf08b5090fd81538590538530ab8c46
   }
+}
+
+.bg-header-2 {
+  height: 800px;
+  background: url(/img/header-image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-item .nav-link {
+  color: var(--second-color) !important;
+}
+
+.nav-item .nav-link:hover {
+  border-bottom: 2px solid var(--second-color);
+}
+
+.logo {
+  width: 200px;
+  padding-left: 0;
+}
+
+.dropdown-menu {
+  color: var(--second-color) !important;
+}
+
+.navabr-toggler .navbar-toggler-icon {
+  color: var(--second-color) !important;
 }
 
 /*!

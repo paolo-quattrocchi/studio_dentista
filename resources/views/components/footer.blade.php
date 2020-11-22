@@ -12,13 +12,8 @@
       <div class="col-md-6 mt-md-0 mt-3">
         
         <!-- Content -->
-<<<<<<< HEAD
-        <img src="/img/dentisti_aulab.png" height=100px alt="">
+        <img src="/img/cover.png" class="logo" height=100px alt="" class="mb-3">
         <p class="text-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti, incidunt, numquam ea quisquam debitis sint saepe non nihil minima autem beatae sapiente eaque ipsum, ut magni ullam blanditiis. Neque!</p>
-=======
-        <img src="/img/dentisti_aulab.png" height=100px alt="" class="mb-3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti, incidunt, numquam ea quisquam debitis sint saepe non nihil minima autem beatae sapiente eaque ipsum, ut magni ullam blanditiis. Neque!</p>
->>>>>>> 4a152924aaf08b5090fd81538590538530ab8c46
         
       </div>
       <!-- Grid column -->
@@ -26,7 +21,7 @@
       <hr class="clearfix w-100 d-md-none text-right pb-3">
       
       <!-- Grid column -->
-      <div class="col-md-6 mb-md-0 mb-3 text-md-center">
+      <div class="col-md-6 mb-md-0 mb-3 text-md-center mt-5">
         
         <!-- Links -->
         <h5 class="text-second text-uppercase">contatti</h5>
