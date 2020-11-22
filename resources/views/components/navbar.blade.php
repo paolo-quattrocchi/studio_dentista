@@ -1,5 +1,5 @@
-  <!-- navbar -->
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
     
 
     <a class="navbar-brand" href="#"> <img src="/img/dentisti_aulab.png" height="100 px" alt="logo"> </a>
@@ -15,16 +15,10 @@
         <li class="nav-item">
         <a class="nav-link" href="{{route('staff')}}">Staff</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{route('services')}}" >
+        <li class="nav-item">
+          <a class="nav-link" href="{{route('services')}}" >
             Servizi
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="{{route('contacts')}}">Contatti</a>

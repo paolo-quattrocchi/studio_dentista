@@ -515,23 +515,8 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 __webpack_require__(/*! /Users/paoloquattrocchi/wa/laravel/p_r_v_f_d_dentista/resources/js/app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! /Users/paoloquattrocchi/wa/laravel/p_r_v_f_d_dentista/resources/sass/app.scss */"./resources/sass/app.scss");
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-__webpack_require__(/*! C:\Users\Windows\wa\laravel\p_r_v_f_d_dentista\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Windows\wa\laravel\p_r_v_f_d_dentista\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! C:\Users\Utente\wa\laravel\p_r_v_f_d_dentista\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Utente\wa\laravel\p_r_v_f_d_dentista\resources\sass\app.scss */"./resources/sass/app.scss");
->>>>>>> 8319892bd3b251d3bceebd0901fffd672f6c9f5f
-=======
-__webpack_require__(/*! C:\Users\Utente Locale\wa\laravel\p_r_v_f_d_dentista\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Utente Locale\wa\laravel\p_r_v_f_d_dentista\resources\sass\app.scss */"./resources/sass/app.scss");
->>>>>>> ce216001950e395f085e9ab12baf1770812796ca
->>>>>>> f126bd1f9f04c19beb5e2b06be9507eab6f24e8f
 
 
 /***/ })

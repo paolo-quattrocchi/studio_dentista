@@ -1,5 +1,5 @@
 <!-- header -->
-<header>
+{{-- <header>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-6 p-0">
@@ -12,4 +12,15 @@
             </div>
         </div>
     </div>
-</header>
+</header> --}}
+
+
+<header class="header">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-12">
+          
+        </div>
+      </div>
+    </div>
+  </header>

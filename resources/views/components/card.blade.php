@@ -1,5 +1,5 @@
 
-<div class="card align-items-center" style="width: 18rem;">
+<div class="card align-items-center text-center">
     <img class="card-img-top" src="{{$img}}" alt="...">
     <div class="card-body">
       @if(isset($name))
@@ -8,8 +8,9 @@
       @elseif(isset($services))
       <h5 class="card-title">{{$services}}</h5>
       <p class="card-text">{{$description}}</p>
+      <a href="#" class="btn btn-primary">Vai al servizio</a>
       @endif
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      
     </div>
 </div>
 

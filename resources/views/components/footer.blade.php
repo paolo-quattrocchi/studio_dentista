@@ -12,7 +12,7 @@
       <div class="col-md-6 mt-md-0 mt-3">
         
         <!-- Content -->
-        <img src="/img/dentisti_aulab.png" height=100px alt="">
+        <img src="/img/dentisti_aulab.png" height=100px alt="" class="mb-3">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti, incidunt, numquam ea quisquam debitis sint saepe non nihil minima autem beatae sapiente eaque ipsum, ut magni ullam blanditiis. Neque!</p>
         
       </div>
