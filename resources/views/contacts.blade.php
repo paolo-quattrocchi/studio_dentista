@@ -1,29 +1,29 @@
 <x-layout>
-    <div class="container-fluid my-5 py-5">
+    <div class="container my-5 py-5">
         <div class="row">
             <div class="col-12 col-md-6  my-5 py-5">
-                <p class="h4">lascia qui i tuoi recapiti un nostro operatore ti richiamerà il più presto possibile per fissare un appuntamento in sede con i nostri migliori esperti</p>
+                <p class="lead">Lascia qui i tuoi recapiti un nostro operatore ti richiamerà il più presto possibile per fissare un appuntamento in sede con i nostri migliori esperti</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 shadow py-5">
                 <h3 class="mb-3">Contattaci</h3>
                 <form>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputEmail4">nome</label>
+                            <label for="inputEmail4">Nome</label>
                             <input type="email" class="form-control" id="inputEmail4">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputPassword4">cognome</label>
+                            <label for="inputPassword4">Cognome</label>
                             <input type="password" class="form-control" id="inputPassword4">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputCity">numero</label>
+                            <label for="inputCity">Numero</label>
                             <input type="text" class="form-control" placeholder="340-0000000" id="inputCity">
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="inputState">trattamento</label>
+                            <label for="inputState">Trattamento</label>
                             <select id="inputState" class="form-control">
                                 <option selected>trattamento</option>
                                 <option>sbiancamento</option>
@@ -40,7 +40,7 @@
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-block btn-primary">prenota appuntamento</button>
+                    <button type="submit" class="btn btn-lg btn-block btn-primary">Prenota Appuntamento</button>
                 </form>
             </div>
         </div>

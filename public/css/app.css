@@ -22,6 +22,14 @@
   color: var(--accent);
 }
 
+.bg-first {
+  background-color: var(--first-color);
+}
+
+.bg-second {
+  background-color: var(--second-color);
+}
+
 .header {
   height: 600px;
   background: linear-gradient(var(--second-color), #bdbdbd94, var(--second-color)), url(/img/header-image.png);
@@ -43,6 +51,34 @@
     display: flex;
     flex-direction: column-reverse;
   }
+}
+
+.bg-header-2 {
+  height: 800px;
+  background: url(/img/header-image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-item .nav-link {
+  color: var(--second-color) !important;
+}
+
+.nav-item .nav-link:hover {
+  border-bottom: 2px solid var(--second-color);
+}
+
+.logo {
+  width: 200px;
+  padding-left: 0;
+}
+
+.dropdown-menu {
+  color: var(--second-color) !important;
+}
+
+.navbar-toggler {
+  background-color: var(--second-color) !important;
 }
 
 /*!
