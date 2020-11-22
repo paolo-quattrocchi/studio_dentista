@@ -42,9 +42,16 @@
   text-shadow: 0 4px 7px #302e2e;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 992px) {
   header {
     background-position: 90% 0;
+=======
+@media (max-width: 768px) {
+  .test {
+    display: flex;
+    flex-direction: column-reverse;
+>>>>>>> 4a152924aaf08b5090fd81538590538530ab8c46
   }
 }
 

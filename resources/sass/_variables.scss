@@ -62,9 +62,10 @@ $cyan: #6cb2eb;
     text-shadow: 0 4px 7px rgb(48, 46, 46);
   }
 
-
-@media screen and (max-width: 992px){
-    header{
-        background-position: 90% 0;
+  @media (max-width: 768px) {
+    .test {
+      display: flex;
+      flex-direction: column-reverse;
+  
     }
-}
+  }

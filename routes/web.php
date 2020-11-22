@@ -24,4 +24,3 @@ Route::get('/contacts', function() {
 Route::get('/staff', [StaffController::class, 'staff'])->name('staff');
 Route::get('/services', [ServicesController::class, 'services'])->name('services');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
