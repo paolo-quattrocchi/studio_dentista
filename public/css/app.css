@@ -81,6 +81,15 @@
   background-color: var(--second-color) !important;
 }
 
+.card {
+  transition: 0.3s ease-out;
+  min-height: 250px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

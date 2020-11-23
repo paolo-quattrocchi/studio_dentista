@@ -28,11 +28,16 @@
         </div>
       </div>
     </header>
-    <h1 class="display-4 my-5 font-weight-bold text-center text-capitalize">Dentisti Aulab</h1>
-    <h3 class="text-center">Tornerai ad avere un sorriso smagliante</h3>
-    <div class="container my-5 py-5">
-      <div class="row mb-5">
-          <div class="col-12 col-md-6">
+     
+
+
+  
+
+    <div class="container my-5 py-5 ">
+      <h1 class="display-4 my-5 font-weight-bold text-center text-capitalize">Dentisti Aulab</h1>
+      <h3 class="text-center">Tornerai ad avere un sorriso smagliante</h3>
+      <div class="row mb-5 shadow">
+          <div class="col-12 col-md-6 pl-0">
             <img src="/img/studio.jpeg" height="400" width="600" alt="" class="img-fluid">
           </div>
           <div class="col-12 col-md-6 mt-3">
@@ -69,7 +74,7 @@
         </div>
         <div class="col-12 col-md-4">
           <div class="card align-items-center text-center shadow mb-5">
-            <img class="card-img-top" src="/img/7.jpg" width="200" alt="...">
+            <img class="card-img-top" src="/img/4.jpg" width="200" alt="...">
             <div class="card-body">
               <h5 class="card-title">Sbiancamento Dentale</h5>
               <p class="card-text"></p>

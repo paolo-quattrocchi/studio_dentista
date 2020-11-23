@@ -102,3 +102,12 @@ $cyan: #6cb2eb;
   .navbar-toggler{
     background-color: var(--second-color) !important;
   }
+
+.card{
+    transition: 0.3s ease-out;
+    min-height: 250px;
+}
+
+ .card:hover{
+  transform: scale(1.05);
+}
