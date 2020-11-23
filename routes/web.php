@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\StaffController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
     return view('welcome');
-});
+})->name('welcome'); 
 
-Auth::routes();
+Route::get('/contacts', function() {
+    return view('contacts');
+})->name('contacts'); 
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/staff', [StaffController::class, 'staff'])->name('staff');
+Route::get('/services', [ServicesController::class, 'services'])->name('services');
+
