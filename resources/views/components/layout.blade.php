@@ -20,7 +20,7 @@
   <x-navbar />
 
 
-  <x-header />
+  {{-- <x-header /> --}}
 
 
 
