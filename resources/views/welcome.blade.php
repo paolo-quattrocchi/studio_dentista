@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -18,8 +18,8 @@
     
 
   <x-navbar />
-
-    <!-- Header-->
+  <x-studio /> --}}
+    {{-- <!-- Header-->
     <header class="bg-header-2">
       <div class="container h-100">
         <div class="row align-items-center h-100">
@@ -28,9 +28,10 @@
         </div>
       </div>
     </header>
-    <h1 class="display-4 my-5 font-weight-bold text-center text-capitalize">Dentisti Aulab</h1>
-    <h3 class="text-center">Tornerai ad avere un sorriso smagliante</h3>
+    
     <div class="container my-5 py-5">
+      <h1 class="display-4 my-5 font-weight-bold text-center text-capitalize">Dentisti Aulab</h1>
+      <h3 class="text-center">Tornerai ad avere un sorriso smagliante</h3>
       <div class="row mb-5">
           <div class="col-12 col-md-6">
             <img src="/img/studio.jpeg" height="400" width="600" alt="" class="img-fluid">
@@ -42,9 +43,9 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus dicta nemo ipsum illo deserunt accusantium at explicabo repellat pariatur facilis eaque consequuntur voluptas, similique repellendus autem enim cupiditate sint nesciunt!</p>
           </div>
       </div>
-    </div>
+    </div> --}}
 
-    <div class="container my-5 py-5">
+    {{-- <div class="container my-5 py-5">
       <h2 class="text-center mb-4">I nostri servizi</h2>
       <div class="row">
         <div class="col-12 col-md-4">
@@ -57,19 +58,26 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
-          <div class="card align-items-center text-center shadow mb-5">
-            <img class="card-img-top" src="/img/5.jpg" width="200" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Protesi dentali</h5>
-              <p class="card-text"></p>
-              <a href="/services" class="btn btn-primary">Vai al servizio</a>    
-            </div>
+        <div class="container my-5 py-5 ">
+          <div class="col-12">
+              <h2 class="text-first">Ecco i nostri servizi!</h2>
+              <div class="row">
+                  @foreach ($services as $service)
+                    <div class="col-12 col-md-4 my-3">
+                      <x-card
+                      services="{{$service['servizio']}}"
+                      img="{{$service['img']}}"
+                      description="{{$service['description']}}"
+                      />          
+                    </div> 
+                                 
+                  @endforeach
+              </div>
           </div>
-        </div>
+      </div>
         <div class="col-12 col-md-4">
           <div class="card align-items-center text-center shadow mb-5">
-            <img class="card-img-top" src="/img/7.jpg" width="200" alt="...">
+            <img class="card-img-top" src="/img/4.jpg" width="200" alt="...">
             <div class="card-body">
               <h5 class="card-title">Sbiancamento Dentale</h5>
               <p class="card-text"></p>
@@ -78,7 +86,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
 
 {{--     
@@ -100,8 +108,8 @@
     </div> --}}
 
 
-    <x-footer />
+   {{--  <x-footer />
   
   </body>
-  </html>
+  </html> --}}
 
