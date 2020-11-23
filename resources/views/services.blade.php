@@ -49,9 +49,9 @@
   
   <div class="container my-5 py-5">
     <h1 class="display-4 my-5 font-weight-bold text-center text-capitalize">Dentisti Aulab</h1>
-    <h3 class="text-center">Tornerai ad avere un sorriso smagliante</h3>
-    <div class="row mb-5">
-        <div class="col-12 col-md-6">
+    <h3 class="text-center mb-5">Tornerai ad avere un sorriso smagliante</h3>
+    <div class="row mb- shadow ">
+        <div class="col-12 col-md-6 p-0">
           <img src="/img/studio.jpeg" height="400" width="600" alt="" class="img-fluid">
         </div>
         <div class="col-12 col-md-6 mt-3">

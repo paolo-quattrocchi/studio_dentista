@@ -10,9 +10,9 @@ class ServicesController extends Controller
 
         $services = [
 
-            ['servizio'=>'Sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'/img/chirurgia-dentale.jpg', 'button'=>''],
-            ['servizio'=>'Igiene dentale', 'description' =>'breve descrizione2','img'=>'/img/estetica-dentale.jpg'],
-            ['servizio'=>'Protesi dentarie', 'description' =>'breve descrizione2','img'=>'/img/1.jpg'],
+            ['servizio'=>'Sbiancamento', 'description' =>'Ritrova un sorriso sano e smagliante','img'=>'/img/chirurgia-dentale.jpg', 'button'=>''],
+            ['servizio'=>'Igiene dentale', 'description' =>'Ritrova un sorriso sano e smagliante','img'=>'/img/estetica-dentale.jpg'],
+            ['servizio'=>'Protesi dentarie', 'description' =>'Ritrova un sorriso sano e smagliante','img'=>'/img/1.jpg'],
         ];
 
     return view('services', ['services' => $services]);    

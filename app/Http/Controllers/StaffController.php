@@ -10,11 +10,11 @@ class StaffController extends Controller
         
         $staff = 
         [
-            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
-            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
-            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
-            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
-            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'odontoiatra', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Valeria', 'surname'=>'Vallese', 'description'=>'assistente dentista', 'img'=>'/img/assistente-dentista.jpg'],
+            ['name'=>'Flavio', 'surname'=>'Faraone', 'description'=>'odontoiatra', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Riccardo', 'surname'=>'Franceschi', 'description'=>'odontoiatra', 'img'=>'/img/membro_staff_1.jpeg'],
+            ['name'=>'Kaori', 'surname'=>'Rella', 'description'=>'assistente alla poltrona', 'img'=>'/img/igienista-dentale.jpg'],
             ['name'=>'Paolo', 'surname'=>'Quattrocchi', 'description'=>'breve descrizione', 'img'=>'/img/membro_staff_1.jpeg'],
 
         ];
