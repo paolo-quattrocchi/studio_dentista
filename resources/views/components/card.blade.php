@@ -8,7 +8,7 @@
       @elseif(isset($services))
       <h5 class="card-title">{{$services}}</h5>
       <p class="card-text">{{$description}}</p>
-      <a href="#" class="btn btn-primary">Vai al servizio</a>
+      <a href="/servicespage" class="btn btn-primary">Vai al servizio</a>
       @endif
       
     </div>

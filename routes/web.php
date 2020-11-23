@@ -15,19 +15,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function() {
+Route::get('/', [ServicesController::class, 'services'])->name('services');
 
-    $services = [
+    /* $services = [
 
             ['servizio'=>'Sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'/img/chirurgia-dentale.jpg', 'button'=>''],
             ['servizio'=>'Igiene dentale', 'description' =>'breve descrizione2','img'=>'/img/estetica-dentale.jpg'],
             ['servizio'=>'Protesi dentarie', 'description' =>'breve descrizione2','img'=>'/img/1.jpg'],
         ];
 
-    return view('services', ['services' => $services]);
+    return view('services', ['services' => $services]); */
 
-    return view('welcome');
-})->name('welcome'); 
+    
 
 Route::get('/contacts', function() {
     return view('contacts');
