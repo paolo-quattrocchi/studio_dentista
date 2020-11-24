@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\StaffController;
 use Illuminate\Support\Facades\Route;
@@ -15,19 +16,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', [ServicesController::class, 'services'])->name('services');
 Route::get('/', [ServicesController::class, 'services'])->name('services');
 
-    
+//
+Route::get('/contacts', [ContactController::class, 'contactUs'])->name('contacts');
+Route::post('/contact_save', [ContactController::class, 'contactSave'])->name('contact_save');
+Route::get('/thank_you', [ContactController::class, 'thankYou'])->name('thank_you');
 
-    
-
-Route::get('/contacts', function() {
-    return view('contacts');
-})->name('contacts'); 
-
-Route::get('/servicespage', function () {
-    return view('servicespage');
-})->name('servicespage');
+// Route::get('/servicespage', function () {
+//     return view('servicespage');
+// })->name('servicespage');
 
 Route::get('/staff', [StaffController::class, 'staff'])->name('staff');
+// Route::get('/services', [ServicesController::class, 'services'])->name('services');
 
+Route::get('/services', function() {
+    return view('services');
+})->name('services'); 
