@@ -17,14 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ServicesController::class, 'services'])->name('services');
 
-    /* $services = [
-
-            ['servizio'=>'Sbiancamento dei denti', 'description' =>'breve descrizione2','img'=>'/img/chirurgia-dentale.jpg', 'button'=>''],
-            ['servizio'=>'Igiene dentale', 'description' =>'breve descrizione2','img'=>'/img/estetica-dentale.jpg'],
-            ['servizio'=>'Protesi dentarie', 'description' =>'breve descrizione2','img'=>'/img/1.jpg'],
-        ];
-
-    return view('services', ['services' => $services]); */
+    
 
     
 
@@ -37,5 +30,4 @@ Route::get('/servicespage', function () {
 })->name('servicespage');
 
 Route::get('/staff', [StaffController::class, 'staff'])->name('staff');
-Route::get('/services', [ServicesController::class, 'services'])->name('services');
 
