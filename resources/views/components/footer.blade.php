@@ -28,13 +28,13 @@
         
         <ul class="list-unstyled text-second">
           <li >
-            <a class="text-second" href="#!">33333333333</a>
+           Cell: 33333333333
           </li>
           <li>
-            <a class="text-second" href="#!">08033333333</a>
+           Tel: 08033333333
           </li>
           <li>
-            <a class="text-second" href="#!">indirizzo@mail.com</a>
+            indirizzo@mail.com
           </li>
           
         </ul>

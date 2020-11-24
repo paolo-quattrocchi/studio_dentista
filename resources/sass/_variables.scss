@@ -48,23 +48,22 @@ $cyan: #6cb2eb;
   .bg-second {
     background-color: var(--second-color);
   }
-
-
+  
   .header {
     height: 600px;
-    background: linear-gradient( var(--second-color),#bdbdbd94, var(--second-color)),url(/img/header-image.png);
+    background: linear-gradient( var(--second-color),#ecebeb94, var(--second-color)),url(/img/header-image.png);
     background-size: cover;
     background-position: center;
-    text-shadow: 0 4px 7px rgb(48, 46, 46);
+    
   }
 
-  .bg-header {
-    height: 400px;
-    background: linear-gradient(var(--second-color),#bdbdbd94,var(--second-color)),url(/img/header-image.png);
-    background-size: cover;
-    background-position: center;
-    text-shadow: 0 4px 7px rgb(48, 46, 46);
-  }
+  // .bg-header {
+  //   height: 400px;
+  //   background: linear-gradient(var(--second-color),#bdbdbd94,var(--second-color)),url(/img/header-image.png);
+  //   background-size: cover;
+  //   background-position: center;
+    
+  // }
 
   @media (max-width: 768px) {
     .test {
@@ -84,6 +83,7 @@ $cyan: #6cb2eb;
 
   .nav-item .nav-link {
     color: var(--second-color) !important;
+    font-size: 18px;
   }
   
   .nav-item .nav-link:hover {
