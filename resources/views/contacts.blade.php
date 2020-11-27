@@ -19,15 +19,20 @@
                             <input type="text" class="form-control" id="name" name="name">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="email" name="email">
+                            <label for="inputEmail4">Cognome</label>
+                            <input type="text" class="form-control" id="name" name="surname">
                         </div>
+                        
                         {{-- <div class="form-group col-md-6">
                             <label for="inputPassword4">Cognome</label>
                             <input type="password" class="form-control" id="inputPassword4">
                         </div> --}}
                     </div>
                     <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
                         <div class="form-group col-md-6">
                             <label for="inputCity">Numero</label>
                             <input type="tel" class="form-control" placeholder="340-0000000" id="phone" name="phone">
