@@ -3,11 +3,11 @@
 <x-layout>
     <x-slot name='title'>Benvenuto</x-slot>
     <x-slot name='style'>
-     <style>
+     {{-- <style>
         body{
         background-color: pink
       }
-     </style>
+     </style> --}}
     </x-slot>
     
 
